@@ -1,4 +1,4 @@
-<?
+<?php
 
 require_once __DIR__.'/dgbcalendar/autoload.php';
 use DGBcalendar\calendar;
@@ -19,7 +19,7 @@ $month = str_pad($month, 2, '0', STR_PAD_LEFT); // put 0 on left if nec.
 
 <body>
 
-<?
+<?php
 
 $mycalendar = new calendar($year, $month);
 
