@@ -83,14 +83,14 @@ class calendar
          * list all days of the week as header
          */
         for ($i = 0; $i < 7; $i++) {
-            $day = date('D', strtotime("Sunday +{$i} days"));
+            $day = date('D', strtotime("Monday +{$i} days"));
             $htm .= "<li class='day-name'>$day</li>" . PHP_EOL;
         }
-        // list all days of the week as header in local language
-       // $daysweek = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sab', 'Dom'];
-        //foreach ($daysweek as $day) {
-        //    $htm.= "<li class='day-name'>$day</li>".PHP_EOL;
-        //}
+/*         // list all days of the week as header in local language
+        $daysweek = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sab', 'Dom'];
+        foreach ($daysweek as $day) {
+            $htm.= "<li class='day-name'>$day</li>".PHP_EOL;
+        } */
 
         /**
          * list all days in select month. Styled the first with "first-day"
