@@ -1,6 +1,6 @@
 
 # Print a Month
-Use DGBCalendar with *PHP* to print a selected Month of any year
+Use DGBCalendar with *PHP* to print a selected Month of any year and simply integrate it into your application for data representation, data / process management or so.
 
 `[SimPIL are a series of ultra-simple examples of how to perform different operations with code. Uncomplicated.]`
 
