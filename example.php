@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__.'/dgbcalendar/autoload.php';
+require_once __DIR__.'/dgbcalendar/dgbcalendar.php';
 use DGBcalendar\calendar;
 
 $year = isset($_GET["y"])?  $_GET["y"] : date('Y');
