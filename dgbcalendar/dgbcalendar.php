@@ -2,6 +2,9 @@
 
 namespace DGBcalendar;
 
+// css URL relative 
+define('URLcss', 'dgbcalendar');
+
 /**
  * Dynamic calendar
  * GET params
@@ -68,7 +71,7 @@ class calendar
     {
         // set style for first day
         $htm = "<style>
-        @import url('dgbcalendar/DGBcalendar.css');
+        @import url('".URLcss."/DGBcalendar.css');
 
         .first-day {
             grid-column-start: {$this->first};
