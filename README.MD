@@ -6,7 +6,7 @@ Use DGBCalendar with *PHP* to print a selected Month of any year and simply inte
 `[SimPIL are a series of ultra-simple examples of how to perform different operations with code. Uncomplicated.]`
 
 ## Install
-Simply clone the repo. Integrate in your app.
+Simply clone the repo and integrate it in your app.
 
 ## Perform
 See example.php code to use the library in your code.
