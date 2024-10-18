@@ -35,6 +35,7 @@ define('URLcss', 'dgbcalendar');
  * @return object HTML with a calendar view of the required month
  */
 
+namespace DGBcalendar;
 
 class calendar
 {
