@@ -19,6 +19,7 @@ Consulta el código de `example.php` para aprender a utilizar la biblioteca en t
 - img/logo.svg: aquí se encuentran solo las imágenes importantes
 ![](https://chatgpt.com/c/img/logo.svg) 
 
+[Text in English here](README.MD)
 
 ---
 
